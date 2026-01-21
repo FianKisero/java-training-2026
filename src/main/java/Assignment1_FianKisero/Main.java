@@ -11,6 +11,15 @@ public class Main {
         question5PatternPrinting();
         question6SimpleConsoleCalculator();
     }
+    /*Quiz Problem 1: Variable Operations
+Create a program that:
+1. Declares three integer variables: a = 15, b = 4, c = 7
+2. Calculates and displays:
+The sum of all three numbers
+The product of a and b
+The result of (a + b) * c
+The remainder when a is divided by b
+3. Uses appropriate variable names and comments*/
     public static void question1VariableOperations(){
         int a = 15, b=4, c=7;
 
@@ -19,6 +28,18 @@ public class Main {
         System.out.println("Expression Result: "  +  ((a + b) * c));
         System.out.println("Remainder: "  + (a % b));
     }
+
+    /*Quiz Problem 2: Grade Calculator
+Write a program that:
+1. Takes a student's score (0-100) as input
+2. Determines the grade using this scale:
+90-100: A
+80-89: B
+70-79: C
+60-69: D
+Below 60: F
+3. Uses if-else statements for the logic
+4. Handles invalid input (scores outside 0-100)*/
 
     public static void question2GradeCalculator() {
         Scanner sc = new Scanner(System.in);
@@ -45,6 +66,15 @@ public class Main {
             System.out.println("F");
         }
     }
+
+    /*Quiz Problem 3: Number Sequence
+Create a program that:
+1. Uses a for loop to print numbers from 1 to 20
+2. For each number, print:
+"Even" if the number is even
+"Odd" if the number is odd
+"Multiple of 5" if divisible by 5
+3. Use the modulus operator (%) for checks*/
 
     public static void question3NumberSequence() {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20};
@@ -97,6 +127,13 @@ public class Main {
 
     }
 
+    /*Quiz Problem 5: Pattern Printing
+Write a program that:
+1. Uses nested for loops
+2. Prints a right-angled triangle pattern of asterisks
+3. The triangle should have 5 rows
+4. First row: 1 asterisk, second row: 2 asterisks, etc.*/
+
     public static void question5PatternPrinting() {
         int rows = 5;
 
@@ -113,6 +150,14 @@ public class Main {
 
 
     }
+
+    /*Calculator Requirements
+Core Features (Required):
+1. Basic Operations: Addition, subtraction, multiplication, division
+2. User Interface: Clear menu-driven system
+3. Continuous Operation: Calculate multiple times without restarting
+4. Exit Option: Clean program termination*/
+
     public static void question6SimpleConsoleCalculator() {
 
         Scanner scanner = new Scanner(System.in);
