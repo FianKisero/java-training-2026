@@ -1,4 +1,4 @@
-package Assignment1_FianKisero;
+package Assignments.Assignment1_FianKisero;
 
 import java.util.Scanner;
 
