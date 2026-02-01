@@ -1,0 +1,14 @@
+IDENTIFIED ISSUES.
+1. Encapsulation Violation: The companyName variable is set to the public access modifier and is static, meaning it can be modified by anyone directly.
+Problematic because: Encapsulation exists to control access and maintain consistency.
+
+2. Constructor Validation missing: The constructor is accepting any name. It accepts when its null and empty, this should be validated.
+Problematic because: Objects are never created in invalidated states.
+
+3. Wrong method return type: Void method cant return values. This code on the method "public void calculateBonus(){return salary * 0.1;} " can't be compliled.
+
+4. Logical Error in set Salary and lack of the "this" keyword: No assignment actually happens.
+Problematic because: This means that salary never changes
+
+5.Poor class naming: EmployeeManagement suggests a manager instead of an employee. The class is representing a single employee, but is named as employeeManagement.
+Problematic because:Naming issues can lead to code misuse.
