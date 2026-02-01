@@ -1,4 +1,4 @@
-package Assignments3_FianKisero.Problem1;
+package Assignments.Assignments3_FianKisero.Problem1;
 
 public class DVD extends LibraryItem {
 

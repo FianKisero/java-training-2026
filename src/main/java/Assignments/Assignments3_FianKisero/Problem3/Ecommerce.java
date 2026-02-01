@@ -9,10 +9,10 @@
  * - Custom exceptions class
  * - [Any additional notable implementations]
  */
-package Assignments3_FianKisero.Problem3;
+package Assignments.Assignments3_FianKisero.Problem3;
 
-import Assignments3_FianKisero.Problem3.exceptions.InvalidProductException;
-import Assignments3_FianKisero.Problem3.exceptions.OutOfStockException;
+import Assignments.Assignments3_FianKisero.Problem3.exceptions.InvalidProductException;
+import Assignments.Assignments3_FianKisero.Problem3.exceptions.OutOfStockException;
 
 public class Ecommerce {
     public static void main(String[] args) {

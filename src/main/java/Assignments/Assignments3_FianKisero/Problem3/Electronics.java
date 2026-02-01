@@ -1,6 +1,6 @@
-package Assignments3_FianKisero.Problem3;
+package Assignments.Assignments3_FianKisero.Problem3;
 
-import Assignments3_FianKisero.Problem3.exceptions.InvalidProductException;
+import Assignments.Assignments3_FianKisero.Problem3.exceptions.InvalidProductException;
 
 public class Electronics extends Product {
     private int warrantyPeriod;

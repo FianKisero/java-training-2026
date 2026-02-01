@@ -9,10 +9,9 @@
  * - conditional exception
  * - [Any additional notable implementations]
  */
-package Assignments3_FianKisero.Problem1;
+package Assignments.Assignments3_FianKisero.Problem1;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {

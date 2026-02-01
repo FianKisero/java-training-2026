@@ -9,7 +9,7 @@
  * - custom exception class InvalidSalaryException
  * - [Any additional notable implementations]
  */
-package Assignments3_FianKisero.Problem4;
+package Assignments.Assignments3_FianKisero.Problem4;
 
 public class Main {
             public static void main(String[] args) {

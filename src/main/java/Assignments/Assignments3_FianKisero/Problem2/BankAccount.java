@@ -1,8 +1,8 @@
-package Assignments3_FianKisero.Problem2;
+package Assignments.Assignments3_FianKisero.Problem2;
 
-import Assignments3_FianKisero.Problem2.exceptions.AccountNotFoundException;
-import Assignments3_FianKisero.Problem2.exceptions.InsufficientFundsException;
-import Assignments3_FianKisero.Problem2.exceptions.InvalidTransactionException;
+import Assignments.Assignments3_FianKisero.Problem2.exceptions.AccountNotFoundException;
+import Assignments.Assignments3_FianKisero.Problem2.exceptions.InsufficientFundsException;
+import Assignments.Assignments3_FianKisero.Problem2.exceptions.InvalidTransactionException;
 
 import java.util.HashMap;
 import java.util.Map;
