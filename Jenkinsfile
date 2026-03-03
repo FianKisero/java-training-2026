@@ -6,7 +6,7 @@ pipeline {
  }
  environment {
   BUILD_DIR = "built"
-  REPO_URL = "https://github.com/joseph-njogu/Country_Name_Api.git"
+  REPO_URL = "https://github.com/FianKisero/java-training-2026.git"
   BRANCH = "main"
   PROJECT_DIR = "country-name"
  }
