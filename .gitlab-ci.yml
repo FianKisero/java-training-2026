@@ -1,0 +1,32 @@
+stages:
+  - build
+  - test
+  - package
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+
+cache:
+  paths:
+    - .m2/repository
+
+build-job:
+  stage: build
+  image: maven:3.9.6-eclipse-temurin-17
+  script:
+    - mvn clean compile
+
+test-job:
+  stage: test
+  image: maven:3.9.6-eclipse-temurin-17
+  script:
+    - mvn test
+
+package-job:
+  stage: package
+  image: maven:3.9.6-eclipse-temurin-17
+  script:
+    - mvn package
+  artifacts:
+    paths:
+      - target/*.jar
